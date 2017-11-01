@@ -1,0 +1,51 @@
+2017-11-01T11:05:02.114632000 0.053661s notice: Recursively removing directory /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data/tmp
+2017-11-01T11:05:02.118217000 0.057254s notice: Initializing directory /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data
+2017-11-01T11:05:02.118398000 0.057427s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data' did not already exist or is empty.)
+2017-11-01T11:05:02.118516000 0.057545s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-01T11:05:02.127611000 0.066641s notice: Running on Darwin 16.1.0 x86_64
+2017-11-01T11:05:02.127688000 0.066716s notice: Loading data from directory /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data
+2017-11-01T11:05:02.279217000 0.218246s info: Automatically using cache size of 749 MB
+2017-11-01T11:05:02.280085000 0.219113s notice: Listening for intracluster connections on port 29015
+2017-11-01T11:05:02.283652000 0.222680s notice: Listening for client driver connections on port 28015
+2017-11-01T11:05:02.283833000 0.222862s notice: Listening for administrative HTTP connections on port 8080
+2017-11-01T11:05:02.283838000 0.222866s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-11-01T11:05:02.283844000 0.222872s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-11-01T11:05:02.283846000 0.222875s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-11-01T11:05:02.283852000 0.222880s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-01T11:05:02.283858000 0.222886s notice: Server ready, "sarahs_air_lan_i15" 2de97f26-bac7-4a89-b930-5a46f68a4e26
+2017-11-01T11:05:17.953387000 15.892409s info: Table 2d00f05f-ff03-4ccc-a2c5-ca98575a09d5: Starting a new Raft election for term 1.
+2017-11-01T11:05:17.955435000 15.894457s info: Table 2d00f05f-ff03-4ccc-a2c5-ca98575a09d5: Added replica on this server.
+2017-11-01T11:05:17.972053000 15.911075s info: Table 83bf007a-74d8-4335-ab31-5e07d131a871: Starting a new Raft election for term 1.
+2017-11-01T11:05:17.972642000 15.911664s info: Table 83bf007a-74d8-4335-ab31-5e07d131a871: Added replica on this server.
+2017-11-01T11:05:17.983126000 15.922148s info: Table b7fa5a4c-311b-48fc-a5d6-16a74fed0cd9: Starting a new Raft election for term 1.
+2017-11-01T11:05:17.983589000 15.922611s info: Table b7fa5a4c-311b-48fc-a5d6-16a74fed0cd9: Added replica on this server.
+2017-11-01T11:05:18.028022000 15.967044s info: Table d56e074e-947b-4e8c-83dd-c3043fcdccee: Starting a new Raft election for term 1.
+2017-11-01T11:05:18.028368000 15.967389s info: Table d56e074e-947b-4e8c-83dd-c3043fcdccee: Added replica on this server.
+2017-11-01T11:05:18.052398000 15.991419s info: Table 2d00f05f-ff03-4ccc-a2c5-ca98575a09d5: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T11:05:18.052506000 15.991527s info: Table 83bf007a-74d8-4335-ab31-5e07d131a871: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T11:05:18.079867000 16.018888s info: Table b7fa5a4c-311b-48fc-a5d6-16a74fed0cd9: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T11:05:18.079973000 16.018994s info: Table d56e074e-947b-4e8c-83dd-c3043fcdccee: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T13:17:58.726913000 5178.461397s notice: Someone asked for the nonwhitelisted file "/dataexplorer".  If this should be accessible, add it to the static web assets.
+2017-11-01T13:19:28.697446000 5268.429558s notice: Removing file /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data/2d00f05f-ff03-4ccc-a2c5-ca98575a09d5
+2017-11-01T13:19:28.697458000 5268.429569s info: Table 2d00f05f-ff03-4ccc-a2c5-ca98575a09d5: Deleted the table.
+2017-11-01T13:19:28.730306000 5268.462418s notice: Removing file /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data/83bf007a-74d8-4335-ab31-5e07d131a871
+2017-11-01T13:19:28.730324000 5268.462435s info: Table 83bf007a-74d8-4335-ab31-5e07d131a871: Deleted the table.
+2017-11-01T13:19:28.764699000 5268.496811s notice: Removing file /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data/b7fa5a4c-311b-48fc-a5d6-16a74fed0cd9
+2017-11-01T13:19:28.764719000 5268.496831s info: Table b7fa5a4c-311b-48fc-a5d6-16a74fed0cd9: Deleted the table.
+2017-11-01T13:19:28.798357000 5268.530469s notice: Removing file /Users/sarahnicolls/Documents/devtreeacademy/week8/hollywood-app/hollywood-api/rethinkdb_data/d56e074e-947b-4e8c-83dd-c3043fcdccee
+2017-11-01T13:19:28.798374000 5268.530485s info: Table d56e074e-947b-4e8c-83dd-c3043fcdccee: Deleted the table.
+2017-11-01T13:19:35.609117000 5275.341039s info: Table be731201-3861-4786-9b03-07250b061dc2: Starting a new Raft election for term 1.
+2017-11-01T13:19:35.609430000 5275.341352s info: Table be731201-3861-4786-9b03-07250b061dc2: Added replica on this server.
+2017-11-01T13:19:35.609439000 5275.341360s info: Table 95b0eb86-6b08-41d0-8385-b32a69e6c6fd: Starting a new Raft election for term 1.
+2017-11-01T13:19:35.609613000 5275.341534s info: Table 95b0eb86-6b08-41d0-8385-b32a69e6c6fd: Added replica on this server.
+2017-11-01T13:19:35.616839000 5275.348761s info: Table a901c418-37ec-4dd9-9286-b9f6bd63c981: Starting a new Raft election for term 1.
+2017-11-01T13:19:35.617086000 5275.349008s info: Table a901c418-37ec-4dd9-9286-b9f6bd63c981: Added replica on this server.
+2017-11-01T13:19:35.639562000 5275.371484s info: Table be731201-3861-4786-9b03-07250b061dc2: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T13:19:35.639637000 5275.371559s info: Table 95b0eb86-6b08-41d0-8385-b32a69e6c6fd: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T13:19:35.639693000 5275.371615s info: Table a901c418-37ec-4dd9-9286-b9f6bd63c981: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-01T13:19:36.184397000 5275.916319s info: Table a901c418-37ec-4dd9-9286-b9f6bd63c981: Configuration is changing.
+2017-11-01T13:19:36.184463000 5275.916384s info: Table a901c418-37ec-4dd9-9286-b9f6bd63c981: Configuration is changing.
+2017-11-01T14:44:01.629420000 10341.188411s notice: Someone asked for the nonwhitelisted file "/api/actors/db972bc6-d8ed-4a26-91e9-4c50d8172099".  If this should be accessible, add it to the static web assets.
+2017-11-01T14:44:23.621103000 10363.179138s notice: Someone asked for the nonwhitelisted file "/api/actors/db972bc6-d8ed-4a26-91e9-4c50d8172099".  If this should be accessible, add it to the static web assets.
+2017-11-01T14:44:57.189337000 10396.745870s notice: Someone asked for the nonwhitelisted file "/api/actors/db972bc6-d8ed-4a26-91e9-4c50d8172099".  If this should be accessible, add it to the static web assets.
+2017-11-01T14:44:58.260708000 10397.817241s notice: Someone asked for the nonwhitelisted file "/api/actors/db972bc6-d8ed-4a26-91e9-4c50d8172099".  If this should be accessible, add it to the static web assets.
