@@ -11,3 +11,4 @@ module.exports = {
       .catch(err => reply(err));
   }
 };
+// removing actor

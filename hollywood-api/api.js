@@ -1,5 +1,6 @@
 const routes = require("./routes");
 const models = require("./models");
+// importing our rotes/models folders so that we can use them in our main index.js
 
 module.exports.register = function(server, options, next) {
   server.bind({

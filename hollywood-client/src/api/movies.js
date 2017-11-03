@@ -1,4 +1,5 @@
-const CREATE_URL = (path = "") => `http://localhost:4040/api/movies/${path}`;
+const CREATE_URL = (path = "") =>
+  `https://hollywood-api-sarah.now.sh/api/movies/${path}`;
 
 export const getById = id => {
   return fetch(CREATE_URL(id))
@@ -39,6 +40,9 @@ export const remove = id => {
     .then(response => response.json())
     .catch(error => console.log(error));
 };
+
+// addActor/removeActor are so that you can add and remove an Actor
+// when you are editting a specific movie.
 
 export const addActor = (id, data) => {
   return fetch(CREATE_URL(`${id}/actor`), {

@@ -1,4 +1,5 @@
-const CREATE_URL = (path = "") => `http://localhost:4040/api/actors/${path}`;
+const CREATE_URL = (path = "") =>
+  `https://hollywood-api-sarah.now.sh/api/actors/${path}`;
 
 export const getById = id => {
   return fetch(CREATE_URL(id))

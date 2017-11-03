@@ -5,3 +5,5 @@ module.exports = [
   require("./removeActor"),
   require("./updateActor")
 ];
+
+// exporting all files we need to use elsewhere

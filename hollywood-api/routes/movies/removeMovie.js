@@ -11,3 +11,5 @@ module.exports = {
       .catch(err => reply(err));
   }
 };
+
+// deleting Movie

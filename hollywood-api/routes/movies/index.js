@@ -7,3 +7,5 @@ module.exports = [
   require("./addActor"),
   require("./removeActor")
 ];
+
+// exporting all files so we can use elsewhere

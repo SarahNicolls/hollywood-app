@@ -13,8 +13,16 @@ module.exports = db => {
       .number()
       .min(0)
       .max(100)
-      .required()
+      .required(),
+    country: type.string().required(),
+    language: type.string().required(),
+    releaseDate: type.string().required(),
+    budget: type.string().required(),
+    openingWknd: type.string().required(),
+    genre: type.string().required()
   });
 
   return Movie;
 };
+
+// creating a movie model

@@ -9,3 +9,4 @@ module.exports = {
       .catch(err => reply(err));
   }
 };
+// getJoin allows you to add an actor into the movie

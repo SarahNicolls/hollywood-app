@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+// import Switch so that our CreateMovie/MovieDetails display on a different Page
 
+// importing all our pages from views folder
 import {
   Home,
   ListActors,
@@ -13,6 +15,7 @@ import {
   CreateActor
 } from "./views";
 
+// making all the different Routes
 class Router extends Component {
   render() {
     return (

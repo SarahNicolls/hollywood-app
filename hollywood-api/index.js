@@ -13,6 +13,7 @@ server.connection({
   }
 });
 
+// api has all our models/routes connected to it so we can use it here
 server.register(
   [
     {
